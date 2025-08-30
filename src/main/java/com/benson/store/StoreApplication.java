@@ -9,12 +9,12 @@ public class StoreApplication {
 
     public static void main(String[] args) {
 		ApplicationContext applicationContext = SpringApplication.run(StoreApplication.class, args);
-//        var orderService = applicationContext.getBean(OrderService.class);
-//        orderService.placeOrder();
+        var orderService = applicationContext.getBean(OrderService.class);
+        orderService.placeOrder();
 
 
-        var notificationService = applicationContext.getBean(NotificationService.class);
-        notificationService.send("this is my message");
+//        var notificationService = applicationContext.getBean(NotificationService.class);
+//        notificationService.send("this is my message");
     }
 
 }
