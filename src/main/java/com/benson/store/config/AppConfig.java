@@ -1,5 +1,9 @@
-package com.benson.store;
+package com.benson.store.config;
 
+import com.benson.store.service.OrderService;
+import com.benson.store.service.PaymentService;
+import com.benson.store.service.PaypalPaymentService;
+import com.benson.store.service.StripePaymentService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

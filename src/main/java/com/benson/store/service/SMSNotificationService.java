@@ -1,11 +1,12 @@
-package com.benson.store;
+package com.benson.store.service;
 
 import org.springframework.stereotype.Service;
 
 @Service("sms")
 public class SMSNotificationService implements NotificationService{
+
     @Override
-    public void send(String message) {
+    public void send(String message, String recipientEmail) {
         System.out.println("SMS");
         System.out.println(message);
     }

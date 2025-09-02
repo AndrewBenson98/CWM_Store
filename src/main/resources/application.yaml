@@ -10,3 +10,7 @@ stripe:
 
 payment:
   gateway: "paypal"
+
+email:
+  port: 3030
+  host: "https://emailhost.com"

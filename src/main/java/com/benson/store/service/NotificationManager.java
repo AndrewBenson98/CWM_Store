@@ -1,4 +1,4 @@
-package com.benson.store;
+package com.benson.store.service;
 
 import org.springframework.stereotype.Service;
 
@@ -13,6 +13,6 @@ public class NotificationManager {
 
 
     public void sendNotification(String message){
-        notificationService.send(message);
+        notificationService.send(message,"dummyEmail@gamil.com");
     }
 }
