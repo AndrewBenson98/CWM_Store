@@ -18,10 +18,10 @@ public class StoreApplication {
 //        var notificationService = applicationContext.getBean(NotificationService.class);
 //        notificationService.send("this is my message");
 
-        var userService = applicationContext.getBean(UserService.class);
-        userService.registerNewUser(new User(1,"user1@gmail.com","password1","Andrew"));
+//        var userService = applicationContext.getBean(UserService.class);
 //        userService.registerNewUser(new User(1,"user1@gmail.com","password1","Andrew"));
-        System.out.println(userService.getUser("user1@gmail.com"));
+////        userService.registerNewUser(new User(1,"user1@gmail.com","password1","Andrew"));
+//        System.out.println(userService.getUser("user1@gmail.com"));
     }
 
 }
